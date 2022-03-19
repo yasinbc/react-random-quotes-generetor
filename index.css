@@ -1,0 +1,46 @@
+body {
+  background: radial-gradient(purple, violet);
+}
+
+#quote-box {
+  border-radius: 30px;
+  height: 450px;
+  margin: 50px 150px;
+  background: rgb(146, 250, 114);
+}
+
+#new-quote {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quote-container {
+  width: 70vw;
+  height: 250px;
+  margin-left: 0px;
+}
+
+.quote-container__text {
+  width: 68%;
+  margin: 20px;
+  position: absolute;
+  text-align: center;
+}
+
+.quote-container__author {
+  margin: 20px;
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 280px;
+}
+
+#button {
+  position: relative;
+  left: 90%;
+  bottom: 60px;
+}
+
+.share-tw {
+  position: relative;
+  bottom: 50px;
+}
